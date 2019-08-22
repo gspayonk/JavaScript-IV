@@ -26,7 +26,7 @@ class Instructor extends Person {
         console.log(`Today we are learning about ${this.subject}.`);
     }
     grade(student, subject) {
-            console.log(`${student.name} receives a perfect score on ${subject}');
+        console.log(`${student.name} receives a perfect score on ${subject}`);
     }
 }
 
@@ -36,7 +36,7 @@ class Student {
         this.age = basicTwo.age;
         this.location = basicTwo.location;
         this.previousBackground = basicTwo.previousBackground;
-        
+
     }
 
     speak() {
